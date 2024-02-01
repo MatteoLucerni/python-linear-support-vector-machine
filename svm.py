@@ -76,5 +76,4 @@ svc.fit(X_train, Y_train)
 acc = svc.score(X_test, Y_test)
 acc_train = svc.score(X_train, Y_train)
 
-# overfitting
 print(f'Accuracy FullSet - TEST: {acc} / TRAIN: {acc_train}')
